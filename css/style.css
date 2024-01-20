@@ -2371,11 +2371,12 @@ h6 { font-size: 16px; }
 	.cavani_tm_left_border{display: none;}
 	.cavani_tm_right_border{display: none;}
 	.cavani_tm_section .section_inner:before{width: 20px;}
-	.cavani_tm_mainpart .author_image{display: none;}
+	.cavani_tm_mainpart .author_image{display: contents;}
 	.cavani_tm_mainpart{top: 55px;left: 0px;right: 0px;bottom: 0px;}
 	.cavani_tm_mainpart .main_content{width: 100%;}
 	.cavani_tm_home .content{padding: 0px 20px;}
-	.cavani_tm_home .name{font-size: 60px;}
+	.cavani_tm_home .line{display: none;}
+	.cavani_tm_home .name{font-size: 60px; color: white; position: absolute; bottom: 5rem;}
 	.cavani_tm_home .job{font-size: 22px;}
 	.cavani_tm_about .biography .wrapper{flex-direction: column;align-items: baseline;}
 	.cavani_tm_about .biography .left{width: 100%;margin-bottom: 55px;}
